@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/22f07635c1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div class="navbar">
+      <a href="/index.html" class="button-color">
+        <i class="fa-solid fa-house"></i>
+        HOME
+      </a>
+      <a href="/work1.html">과제1</a>
+      <a href="/work2.html">과제2</a>
+      <a href="/work3.html">과제3</a>
+      <a href="/work4.html">과제4</a>
+      <a href="/work5.html">과제5</a>
+    </div>
+    <div class="content">
+        <h1>과제 요약</h1>
+        <div class="cards">
+            <div class="card">
+                <h3>과제 1</h3>
+                <p>Flexbox를 활용한 가로 정렬</p>
+                <a href="/work1.html" class="btn">더 보기</a>
+            </div>
+            <div class="card">
+                <h3>과제 2</h3>
+                <p>세로 정렬과 정렬 기준 변경</p>
+                <a href="/work2.html" class="btn">더 보기</a>
+            </div>
+            <div class="card">
+                <h3>과제 3</h3>
+                <p>상대적 및 절대적 위치 지정</p>
+                <a href="/work3.html" class="btn">더 보기</a>
+            </div>
+            <div class="card">
+                <h3>과제 4</h3>
+                <p>상자 위치 조정과 색상 변경</p>
+                <a href="/work4.html" class="btn">더 보기</a>
+            </div>
+            <div class="card">
+                <h3>과제 5</h3>
+                <p>복잡한 절대적 위치 배치</p>
+                <a href="/work5.html" class="btn">더 보기</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        particlesJS.load('particles-js', 'particles-config.json', function () {
+            console.log('Particles.js loaded!');
+        });
+    </script>
+    
+  </body>
+</html>
