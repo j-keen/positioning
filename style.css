@@ -308,8 +308,8 @@ body {
   
   .box-position {
     position: absolute;
-    left: 40px;
-    top: 40px;
+    left: 50px;
+    top: 50px;
     width: 80px;
     height: 80px;
     background-color: #e76f51;
